@@ -1,0 +1,26 @@
+no normalize
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 20)                180       
+_________________________________________________________________
+dense_1 (Dense)              (None, 10)                210       
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 401
+Trainable params: 401
+Non-trainable params: 0
+_________________________________________________________________
+None 
+
+{'verbose': 1, 'epochs': 100, 'steps': 50} 
+
+mean train loss last 10 epochs: 5.126285982131958
+mean val loss last 10 epochs: 5.21219310760498
+mean train mse last 10 epochs: 54.406724548339845
+mean val mse last 10 epochs: 57.68825263977051
+
+optimizer=Adam(0.001, epsilon=1e-07)
